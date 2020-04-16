@@ -1,0 +1,85 @@
+
+body{
+    background-color:black; 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.area{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;   
+    border-style: solid;
+    border-radius:10px;
+    border-width: 1px;
+    padding: 50px;
+    width: 50px;
+    max-width: 500px;
+    margin-top: 8px;
+}
+
+h2{
+    color: whitesmoke;
+    margin-left: 99px;
+    margin-bottom: 49px;
+}
+
+label{
+    color: whitesmoke;
+    font-size: 21px;
+    margin-left: 1px;
+    margin-top: 249px;
+    margin-bottom: 100px;
+}
+
+#lbl{
+    margin-left: 280px;
+}
+
+#res{
+    padding: 0px;
+    margin-top: 0px;
+    color: whitesmoke;
+    font-size: 21px;
+    margin-left: 310px;
+    margin-bottom: 60px;
+    margin-top: 49px;
+}
+
+.inputs{
+    width: 49px;
+    margin:0px;   
+    border-radius: 33px;
+    font-size: larger;  
+    text-align: center; 
+    margin-left: 10px;
+    outline: none;
+    margin-bottom: 69px;
+}
+
+.btn{
+    border-style: none;
+    border-radius: 1px;
+    border-width: 1px;
+    height: 0px;
+    font-size: 16pt;
+    text-align: center;
+    cursor: pointer;
+    color: whitesmoke;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 285px;
+}
+
+fieldset{
+    align-items: center;
+    border-radius: 10px;
+    border-style: solid;
+    width: 666px;
+    height: 420px;
+}
+
