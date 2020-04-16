@@ -1,9 +1,36 @@
-#Bin2Dec Tier: 1-Beginner
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Chama o layout em CSS-->
+    <link rel="stylesheet" href="./Style.css">
+    <title>Bin2Dec</title>
 
-Binary is the number system all digital computers are based on. Therefore it's important for developers to understand binary, or base 2, mathematics. The purpose of Bin2Dec is to provide practice and understanding of how binary calculations.
-
-Bin2Dec allows the user to enter strings of up to 8 binary digits, 0's and 1's, in any sequence and then displays its decimal equivalent.
-
-This challenge requires that the developer implementing it follow these constraints:
-
-Arrays may not be used to contain the binary digits entered by the user Determining the decimal equivalent of a particular binary digit in the sequence must be calculated using a single mathematical function, for example the natural logarithm. It's up to you to figure out which function to use. User Stories User can enter up to 8 binary digits in one input field User must be notified if anything other than a 0 or 1 was entered User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered Bonus features User can enter a variable number of binary digits Obs: Falta implementar modificgitações: Matriz; Qtd nº inseridos pelo user variável; Função converte Bin para Dec.
+</head>
+<body>
+    <div class ="area">
+        <fieldset>
+            <h2>Transforme os números binários em decimais</h2>
+                <label >Binários:</label>
+                     <!--Input para inserir os 8 números binários-->
+                    <input type="number" Class="inputs" id="bin1">
+                    <input type="number" Class="inputs" id="bin2">
+                    <input type="number" Class="inputs" id="bin3">
+                    <input type="number" Class="inputs" id="bin4">
+                    <input type="number" Class="inputs" id="bin5">  
+                    <input type="number" Class="inputs" id="bin6">
+                    <input type="number" Class="inputs" id="bin7">
+                    <input type="number" Class="inputs" id="bin8">
+                    <!--Saida da informação em Decimal-->
+                    <label id="lbl">Resultado:</label>"
+                    <!--Por padrão o resultado já fica com o "0" logo de inicio-->
+                    <div id="res" >0</div>
+                    <!--Bitão para converter quando acionado-->
+                    <button" Class="btn"onclick=" transform()"> Converter </button>
+        </fieldset>
+    </div>
+    <!--Chama o calculo em JS-->
+    <script src="./Main.js"></script>
+</body>
+</html>
