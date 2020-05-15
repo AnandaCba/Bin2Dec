@@ -13,7 +13,7 @@ function transform(){
             br1 = 128;
             console.log(br1)
             
-        }  //Condição para verificar se o number é ou não binário. Se não for surge um alerta
+        }
     //Inicia todo o processo novamente
     var b2 = Number(document.getElementById('bin2').value)
     console.log(b2)
