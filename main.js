@@ -64,9 +64,8 @@ function transform(){
     }
     if (b1 < 0 || b2 < 0 || b3 <0 || b4 <0 || b5 <0 || b6<0 || b7<0 || b8<0){
         window.alert('Digite apenas números binários (0 ou 1)')
-    } else {
+    }
     //Soma-se todos os valores e exibe na tela
     var soma = br1 + br2 + br3 + br4 + br5 + br6 + br7 + br8;
     res.innerHTML =  `${soma}`
-    }
 }
