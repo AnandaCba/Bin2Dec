@@ -12,7 +12,6 @@ function transform(){
         if (b1==1){
             br1 = 128;
             console.log(br1)
-            
         }
     //Inicia todo o processo novamente
     var b2 = Number(document.getElementById('bin2').value)
