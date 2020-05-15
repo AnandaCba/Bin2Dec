@@ -1,96 +1,60 @@
+//Criada a função para realizar o calculo
 function transform(){
-    //Criada a função para realizar o calculo
-    
     //Variável buscando o valor inserido pelo User
-    var b1 = window.document.getElementById('bin1')
-    //Transformo a variável em number para calculo
-    var bn1 = Number.parseInt(b1.value)
+    var b1 = Number(document.getElementById('bin1').value)
     //Caso o user tenha inserido valor "1" a condição joga o valor do número que representa na variável "br1"
     //Cada posição tem um valor especifico no qual vai receber esse valor se a informação que o user passou por "1"
     //Então isso se repete por 8 vezes, as 8 posições disponíveis para o user inserir valores
     var br1 = 0;
-        if (bn1==1){
-            var br1 = 128;
-
+        if (b1==1){
+            br1 = 128;
+            console.log(br1)
         }  //Condição para verificar se o number é ou não binário. Se não for surge um alerta
-        if (bn1>1 || bn1<0)
-        {
-            window.alert('Digite apenas números binários (0 ou 1)')
-        }
     //Inicia todo o processo novamente
-    var b2 = window.document.getElementById('bin2')
-    var bn2 = Number.parseInt(b2.value)
+    var b2 = Number(document.getElementById('bin2').value)
     var br2 = 0;
-        if (bn2==1){
+        if (b2==1){
             var br2 = 64;
+            console.log(br2)
         }
-        if (bn2>1 || bn2<0)
-        {
-            window.alert('Digite apenas números binários (0 ou 1)')
-        }
-    
-    var b3 = window.document.getElementById('bin3')
-    var bn3 = Number.parseInt(b3.value)
+    var b3 = Number(document.getElementById('bin3').value)
     var br3 = 0;
-        if (bn3==1){
+        if (b3==1){
             var br3 = 32;
+            console.log(br3)
         }
-        if (bn3>1 || bn3<0)
-        {
-            window.alert('Digite apenas números binários (0 ou 1)')
-        }
-    
-    var b4 = window.document.getElementById('bin4')
-    var bn4 = Number.parseInt(b4.value)
+    var b4 = Number(document.getElementById('bin4').value)
     var br4 = 0;
-        if (bn4==1){
+        if (b4==1){
             var br4 = 16;
+            console.log(br4)
         }
-        if (bn4>1 || bn4<0)
-        {
-            window.alert('Digite apenas números binários (0 ou 1)')
-        }
-    
-    var b5 = window.document.getElementById('bin5')
-    var bn5 = Number.parseInt(b5.value)
+    var b5 = Number(document.getElementById('bin5').value)
     var br5 = 0;
-    if (bn5==1){
+    if (b5==1){
         var br5 = 8;
+        console.log(br5)
     }
-    if (bn5>1 || bn5<0)
-    {
-        window.alert('Digite apenas números binários (0 ou 1)')
-    }
-
-    var b6 = window.document.getElementById('bin6')
-    var bn6 = Number.parseInt(b6.value)
+    var b6 = Number(document.getElementById('bin6').value)
     var br6 = 0;
-    if (bn6==1){
+    if (b6==1){
         var br6 = 4;
+        console.log(br6)
     }
-    if (bn6>1 || bn6<0)
-    {
-        window.alert('Digite apenas números binários (0 ou 1)')
-    }
-
-    var b7 = window.document.getElementById('bin7')
-    var bn7 = Number.parseInt(b7.value)
+    var b7 = Number(document.getElementById('bin7').value)
     var br7 = 0;
-    if (bn7==1){
+    if (b7==1){
         var br7 = 2;
+        console.log(br7)
     }
-    if (bn7>1 || bn7<0)
-    {
-        window.alert('Digite apenas números binários (0 ou 1)')
-    }
-
-    var b8 = window.document.getElementById('bin8')
-    var bn8 = Number.parseInt(b8.value)
+    var b8 = Number(document.getElementById('bin8').value)
     var br8 = 0;
-    if (bn8==1){
+    if (b8==1){
         var br8 = 1;
+        console.log(br8)
     }
-    if (bn8>1 || bn8<0)
+    // Verificação se algum input é >1 || < 0 
+    if (b1 || b2 || b3 || b4 || b5 || b6 || b7 || b8 != 1 && 0 )
     {
         window.alert('Digite apenas números binários (0 ou 1)')
     }
