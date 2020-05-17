@@ -1,26 +1,26 @@
 # Bin2Dec
 
-# Sobre o projeto:
+## Sobre o projeto:
 Convertor de números binários em decimais, fixar aprendizado base de JavaScript, HTML e CSS. 
 
-# O que aprendemos:
-JAVASCRIPT
+## O que aprendemos:
+####JAVASCRIPT
 - getElementBy
 - innerHTML
 - Push Array
 - Converter em number
 
-HTML
+####HTML
  - Link JS e CSS
  - Input
  - ID
 
- CSS
+ ###CSS
  - Align
  - Border
  - Width
 
-# Techs
+## Techs
 - JavaScript
 - HTML5
 - CSS3
