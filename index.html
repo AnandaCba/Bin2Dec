@@ -3,30 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!--Chama o layout em CSS-->
     <link rel="stylesheet" href="./style.css">
+    
     <title>Bin2Dec</title>
 </head>
 <body>
-    <div class ="area">
+    <div>
         <fieldset>
-            <h2>Transforme os números binários em decimais</h2>
-                <label >Binários:</label>
-                     <!--Input para inserir os 8 números binários-->
-                    <input type="number" Class="inputs" id="bin1">
-                    <input type="number" Class="inputs" id="bin2">
-                    <input type="number" Class="inputs" id="bin3">
-                    <input type="number" Class="inputs" id="bin4">
-                    <input type="number" Class="inputs" id="bin5">  
-                    <input type="number" Class="inputs" id="bin6">
-                    <input type="number" Class="inputs" id="bin7">
-                    <input type="number" Class="inputs" id="bin8">
-                    <!--Saida da informação em Decimal-->
-                    <label id="lbl">Resultado:</label>"
-                    <!--Por padrão o resultado já fica com o "0" logo de inicio-->
-                    <div id="res" >0</div>
-                    <!--Bitão para converter quando acionado-->
-                    <button" Class="btn"onclick=" transform()"> Converter </button>
+            <label class="strings">Binários para Decimais</label><br>
+                     
+                    <!--Área para inserir os números binários-->
+                    <textarea 
+                        id="bin1" 
+                        Class="inputs">
+                    </textarea><br>
+
+                    <label class="strings">Resultado:</label><br>
+
+                    <!--Área do Resultado-->
+                    <textarea id="result"></textarea><br>
+                    
+                    <!--Botão para converter quando acionado-->
+                    <button" class="button" onclick="bintodec()"> Converter </button>
         </fieldset>
     </div>
     <!--Chama o calculo em JS-->
