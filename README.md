@@ -1,31 +1,29 @@
 # Bin2Dec
 
+<img src="/img/app.png" alt="App Bin2Dec">
+
 ## Sobre o projeto:
-Convertor de números binários em decimais, fixar aprendizado base de JavaScript, HTML e CSS. 
+Números binários para decimais, fixar aprendizado base de JavaScript, HTML e CSS. 
 
 ## O que aprendemos:
 #### JAVASCRIPT
 - getElementBy
 - innerHTML
-- Push Array
-- Converter em number
+- Clean Code
+- Converter em número
 
 #### HTML
  - Link JS e CSS
  - Input
- - ID
+ - Id
 
  #### CSS
- - Align
- - Border
- - Width
+ - class
+ - Align Center
 
 ## Techs
 - JavaScript
 - HTML5
 - CSS3
 
-Já pensou como seria os números decimais tranformados em binários?
-Esse é o Bin2Dec Convertor de números binários em decimais.
-Escreva um número em binário para vizualizar o correspondente em decimal!
 Simples, prático, divertido e fácil de contruir com JavaScript, HTML5 e CSS3! 
